@@ -1,0 +1,22 @@
+[
+    {"id": 1, "joke": "Do I want to learn programming?.. !YES=NOT"},
+    {"id": 2, "joke": "What comes after 8? 10!.. You’re hired!"},
+    {"id": 3, "joke": "What was the spider doing on the computer?.. He was making a web-site!"},
+    {"id": 4, "joke": "Knock knock.. Who’s there?”.. Hello world!.. “Hello world, who?”.. NameError: name ‘who’ is not defined"},
+    {"id": 5, "joke": "Why do programmers prefer dark mode?.. Because light attracts bugs."},
+    {"id": 6, "joke": "How many programmers does it take to change a light bulb?.. None, that's a hardware problem."},
+    {"id": 7, "joke": "Why do Java developers wear glasses?.. Because they don’t C#."},
+    {"id": 8, "joke": "What’s a programmer’s favorite place to hang out?.. The Foo Bar."},
+    {"id": 9, "joke": "Why do Python programmers have low self-esteem?.. Because they’re constantly comparing their self to others."},
+    {"id": 10, "joke": "Why was the JavaScript developer sad?.. Because he didn't know how to 'null' his feelings."},
+    {"id": 11, "joke": "How do you comfort a JavaScript bug?.. You console it."},
+    {"id": 12, "joke": "Why did the developer go broke?.. Because he used up all his cache."},
+    {"id": 13, "joke": "Why do programmers hate nature?.. It has too many bugs."},
+    {"id": 14, "joke": "What's a computer’s favorite beat?.. An algorithm."},
+    {"id": 15, "joke": "Why did the two Java methods get a divorce?.. Because they had constant arguments."},
+    {"id": 16, "joke": "How do programmers celebrate Halloween?.. They code 'Boo'leans."},
+    {"id": 17, "joke": "What do you call a programmer from Finland?.. Nerdic."},
+    {"id": 18, "joke": "Why do programmers prefer using the dark mode? Because the light attracts bugs."},
+    {"id": 19, "joke": "How do you know the computer is getting old?.. It has a lot of cache lines."},
+    {"id": 20, "joke": "Why was the computer cold? It left its Windows open."}
+]

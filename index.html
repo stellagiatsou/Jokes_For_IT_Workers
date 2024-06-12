@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Funny jokes for IT workers out there!</title>
+      <meta name="author" content="Stella Giatsou" />
+
+      <!--for Navbar-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+        
+      <!--for Forms-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+      <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <a class="navbar-brand" href="#">s.giatsou</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link" href="#Resources">Resources</a>
+                </li> 
+            </ul>
+            </div>  
+        </nav>
+        
+        <div class="container">
+            <h3>Jokes for IT workers out there!</h3><br>
+            <div class="card h-100">
+                <div class="card-body">   
+                    <form action="http://localhost:5000/random_joke" method="get" class="text-center">
+                        <div class="text-center">
+                            &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602; &#x1F602;  &nbsp;&nbsp;&nbsp;
+                            <button type="submit" class="randombtn">Random Joke</button>
+                          </div>
+                    </form>
+                    
+                    <form action="http://localhost:5000/jokes" method="post">         
+                        <label for="joke">Enter your Joke:</label>
+                        <textarea class="form-control" rows="5" id="joke" placeholder="Enter your joke.." name="jk" required></textarea>
+                        <button type="submit" class="jokebtn" >Submit</button>
+                    </form>
+                </div>     
+            </div>
+        </div>
+        <br><br><hr>
+        <footer>					
+            <div class="container text-md-start mt-5">
+             
+                <div class="row mt-3">
+                    
+                    <div class=" text-center col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        
+                      <h4 class="text fw-bold mb-4 text-center" id="Resources">
+                        <b>Resources</b>
+                      </h4>
+                      <p class="text-footer">
+                        <a href="https://www.youtube.com/watch?v=WXsD0ZgxjRw" class="text-reset" style="text-decoration:none">APIs for Beginners 2023 - How to use an API (Full Course / Tutorial) &#x1F855;</a>
+                      </p>    
+                      <p class="text-footer">
+                        <a href="https://www.youtube.com/watch?v=qbLc5a9jdXo" class="text-reset" style="text-decoration:none">REST API Crash Cource &#x1F855;</a>
+                      </p>
+                    </div>
+                    
+                    <div class="text-center col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <h4 class="text fw-bold mb-4 text-center">
+                        <b>&#x270C; LinkedIn</b>
+                      </h4>
+                      <p class="text-footer">
+                        LinkedIn: <a href="https://www.linkedin.com/in/stellagiatsou/" class="text-reset" target="_blank">Stella Giatsou </a>	
+                      </p>                  
+                      </div>
+                      
+                      <div class=" text-center col-md-3 col-lg-2 col-xl-2 mx-auto mb-4 ">
+                        <h4 class="text fw-bold mb-4 text-center">
+                          <b>&#x26A1; Follow</b>
+                        </h4>
+                        <p>
+                          Github: <a href="https://github.com/stellagiatsou" class="text-reset" target="_blank">Stella Giatsou </a>					
+                        </p>
+                        </div>
+
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">  
+                          <h4 class="text text-center fw-bold mb-4">
+                            <b> &#x2709; Contact me</b>
+                          </h4>
+                          <p class="text-footer text-center"> 
+                            Email: <a href="mailto:stelagiatsou@gmail.com" class="text-reset">stelagiatsou@gmail.com </a>
+                          </p>
+                          <br>
+                        </div>
+                        
+                </div>           
+                <hr>
+                <div class="text-center" >
+                  © 2024, All rights reserved           
+                </div>
+             
+            </div>
+            <br>
+      </footer>
+    </body>
+</html>
